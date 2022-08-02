@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+.page {
+    width: 100%; 
+    height: 100vh;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    padding: 60px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+    background-color: black;
+    
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 24px;
+    margin: 12px 12px;
+}
+
+ul li :hover {
+    color: blue;
+    transition: 1.5s;
+    cursor: pointer;
+} 
+
+section {
+    color: white;
+    text-align: center;
+}
+
+section .line_1 {
+    color: blue;
+    font-family:  Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 25px;;
+}
+
+section .line_2 {
+    font-size: 20px;
+    font-family:  Arial;
+    margin-bottom: 40px;
+}
+
+section .line_3 {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+section .line_3 button {
+    margin-top: 90px;
+    width: 400px;
+    height: 50px;
+    font-size: 24px;
+    border-color: blue;
+    border-radius: 30px;
+    color: blue;
+    background-color: transparent;
+}
+
+section .line_3 button:hover {
+    color: white;
+    background-color: blue;
+    transition: 1s;
+    cursor: pointer;
+}
